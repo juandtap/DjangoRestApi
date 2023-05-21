@@ -55,6 +55,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_ALLOW_ALL = False
+# agregar el servidor donde se ejecuta el frontend
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:4200',
 )
